@@ -31,7 +31,7 @@ jobs:
         run: sdkmanager "platform-tools" "platforms;android-35" "build-tools;35.0.0"
 
       - name: Extract project
-        run: unzip -o Lunar_Crystal_Theme_Android_Project.zip -d project
+        run: unzip -o Lunar_Crystal_Theme_Icons_GitHub.zip -d project
 
       - name: Build APK
         run: gradle -p project assembleDebug
